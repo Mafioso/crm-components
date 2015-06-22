@@ -1,0 +1,39 @@
+.black {
+  color: #333;
+}
+
+.white {
+  color: white;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-darken-1 {
+  background-color: hsla(0,0%,0%,.1);
+}
+
+.blue {
+  color: #4470FF;
+}
+
+.bg-blue {
+  background-color: #4470FF;
+}
+
+.green {
+  color: #57ad68;
+}
+
+.bg-green {
+  background-color: #57ad68;
+}
+
+.gray {
+  color: #999;
+}
+
+.red {
+  color: #F14F59;
+}

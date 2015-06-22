@@ -1,0 +1,72 @@
+.transparent-input {
+  height: var(--input-field-height);
+  padding: 0 var(--input-field-padding-x) var(--input-field-padding-y);
+  margin: 0;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  font: inherit;
+  width: 100%;
+  border: 0;
+  background-color: transparent;
+  white-space: pre-wrap;
+  overflow: hidden;
+  resize: none;
+}
+
+textarea.transparent-input {
+  height: auto;
+}
+
+.transparent-input:focus {
+  outline: 0;
+}
+
+.transparent-input-shadow {
+  color: transparent;
+  white-space: pre-wrap;
+  padding: 0 var(--input-field-padding-x) var(--input-field-padding-y);
+}
+
+.transparent-input-shadow .link-tag,
+.transparent-input-shadow .link-mention {
+  color: transparent;
+}
+
+
+.transparent-label {
+  width: 100%;
+  padding: var(--input-field-padding-y) var(--input-field-padding-x) 0;
+}
+
+.pre-wrap {
+  white-space: pre-wrap;
+}
+
+:root {
+  --input-field-height: 2rem;
+  --input-field-padding-y: .5rem;
+  --input-field-padding-x: 1rem;
+}
+
+
+.input-file {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  display: block;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font-size: 1000px;
+  height: 300px;
+  cursor: pointer;
+}
+
+.input-file-container {
+  overflow: hidden;
+}
+
+.input-file-container:hover {
+  opacity: .8;
+}

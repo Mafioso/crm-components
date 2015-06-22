@@ -1,0 +1,24 @@
+.dropdown-calendar-day {
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  float: left;
+  line-height: 2rem;
+  position: relative;
+}
+
+a.dropdown-calendar-day:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+}
+
+a.dropdown-calendar-day:hover:after, a.dropdown-calendar-day--active:after {
+  background-color: hsla(0,0%,0%,.1);
+}

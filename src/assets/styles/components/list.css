@@ -1,0 +1,8 @@
+.list-reset {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.list-reset li {
+  margin: 0;
+}

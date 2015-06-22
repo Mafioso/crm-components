@@ -1,0 +1,12 @@
+.link-tag {
+  display: inline;
+  color: #4470FF;
+  background-color: hsla(0,0%,0%,.05);
+  border-radius: var(--radius);
+}
+.link-mention {
+  display: inline;
+  color: #4470FF;
+  background-color: hsla(0,0%,0%,.05);
+  border-radius: var(--radius);
+}

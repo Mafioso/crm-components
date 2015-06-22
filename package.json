@@ -1,0 +1,35 @@
+{
+  "dependencies": {},
+  "devDependencies": {
+    "babelify": "^6.1.2",
+    "basscss": "^6.1.6",
+    "basscss-positions": "^1.0.1",
+    "basscss-utility-layout": "^1.1.0",
+    "basscss-utility-typography": "^1.1.0",
+    "basscss-white-space": "^1.0.1",
+    "browserify": "^10.2.3",
+    "del": "^1.2.0",
+    "ecstatic": "^0.8.0",
+    "flex-object": "^1.1.3",
+    "gulp": "^3.8.11",
+    "gulp-cache": "^0.2.9",
+    "gulp-concat": "^2.5.2",
+    "gulp-cssnext": "^1.0.0",
+    "gulp-imagemin": "^2.2.1",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-react": "^3.0.1",
+    "gulp-size": "^1.2.1",
+    "gulp-useref": "^1.2.0",
+    "lodash": "^3.9.3",
+    "merge-stream": "^0.1.7",
+    "react": "^0.13.3",
+    "reactify": "^1.1.1",
+    "run-sequence": "^1.1.0",
+    "tachyons-box-sizing": "^2.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}

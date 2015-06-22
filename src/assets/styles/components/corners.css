@@ -1,0 +1,41 @@
+/* top-left | top-right | bottom-right | bottom-left */
+
+.rounded {
+  border-radius: var(--radius);
+}
+
+.rounded-top {
+  border-radius: var(--radius) var(--radius) 0 0;
+}
+
+.rounded-bottom {
+  border-radius: 0 0 var(--radius) var(--radius);
+}
+
+.rounded-left {
+  border-radius: var(--radius) 0 0 var(--radius);
+}
+
+.rounded-right {
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+.rounded-top-left {
+  border-radius: var(--radius) 0 0 0;
+}
+
+.rounded-top-right {
+  border-radius: 0 var(--radius) 0 0;
+}
+
+.rounded-bottom-left {
+  border-radius: 0 0 0 var(--radius);
+}
+
+.rounded-bottom-right {
+  border-radius: 0 0 var(--radius) 0;
+}
+
+:root {
+  --radius: 5px;
+}
