@@ -115,6 +115,10 @@ button:before,
   border-left-color:#000000;
   border-left-color:rgba(0,0,0,.125);
 }
+
+.border-dashed.border-bottom {
+  border-bottom-style: dashed;
+}
 .link-tag {
   display: inline;
   color: #4470FF;
@@ -210,8 +214,7 @@ a.dropdown-calendar-day:hover:after, a.dropdown-calendar-day--active:after {
   background-color: hsla(0,0%,0%,.1);
 }
 .transparent-input {
-  height:32px;
-  height:2rem;
+  /* height: var(--input-field-height); */
   padding:0 16px 8px;
   padding:0 1rem .5rem;
   margin: 0;

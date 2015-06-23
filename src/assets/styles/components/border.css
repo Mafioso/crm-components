@@ -28,6 +28,10 @@
   border-left-color: var(--border-color);
 }
 
+.border-dashed.border-bottom {
+  border-bottom-style: dashed;
+}
+
 :root {
   --border-width: 1px;
   --border-color: hsla(0,0%,0%,.16);

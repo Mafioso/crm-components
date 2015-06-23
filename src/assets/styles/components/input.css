@@ -1,5 +1,5 @@
 .transparent-input {
-  height: var(--input-field-height);
+  /* height: var(--input-field-height); */
   padding: 0 var(--input-field-padding-x) var(--input-field-padding-y);
   margin: 0;
   vertical-align: middle;
