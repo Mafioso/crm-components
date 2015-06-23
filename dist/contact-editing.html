@@ -237,22 +237,36 @@
                 </div>
               </div>
 
-              <div class='border-bottom relative show-sd-dropdown'>
-                <label class='transparent-label gray'>Тэги</label>
-                <div class='relative'>
-                  <div class='transparent-input-shadow'><a href='#' class='link-tag'>#tag1</a></div>
-                  <input class='transparent-input absolute top-0 left-0 right-0 bottom-0 z1' type='text' value='#tag1' />
+              <div class='border-bottom'>
+                <div class='flex border-bottom border-dashed'>
+                  <div class='flex-auto relative show-sd-dropdown'>
+                    <label class='transparent-label gray'>Тэг</label>
+                    <input class='transparent-input' type='text' />
+
+                    <div class='sd-dropdown bg-white rounded shadow-1'>
+                      <a href='#' class='block p1 border-bottom bg-darken-1'>
+                        Tag1
+                      </a>
+                      <a href='#' class='block p1 border-bottom'>
+                        Tag2
+                      </a>
+                    </div>
+
+                  </div>
+                  <div class='flex-none py1'>
+                    <button class='red'>
+                      <span class='icon icon--remove'>
+                        <svg>
+                          <use xlink:href='#icon-remove'></use>
+                        </svg>
+                      </span>
+                    </button>
+                  </div>
                 </div>
-                <div class='sd-dropdown z4 rounded bg-white shadow-1 overflow-hidden'>
-                  <a href='#' class='block border-bottom p1 bg-darken-1'>
-                    Highlighted tag 1
-                  </a>
-                  <a href='#' class='block border-bottom p1'>
-                    Highlighted tag 2
-                  </a>
-                  <a href='#' class='block border-bottom p1'>
-                    Highlighted tag 3
-                  </a>
+                <div class='text-right py1'>
+                  <button class='regular green'>
+                    Добавить тэг
+                  </button>
                 </div>
               </div>
 
