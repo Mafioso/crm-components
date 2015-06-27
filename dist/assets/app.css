@@ -256,6 +256,13 @@ textarea.transparent-input {
   padding:.5rem 1rem 0;
 }
 
+.transparent-input--large {
+  font-size:21px;
+  font-size: 1.3125rem;
+  line-height:40px;
+  line-height: 2.5rem;
+}
+
 .pre-wrap {
   white-space: pre-wrap;
 }
@@ -319,6 +326,23 @@ textarea.transparent-input {
 }
 .list-reset li {
   margin: 0;
+}
+.hashtag-search .body-master,
+.hashtag-search .body-detail {
+  top:128px;
+  top: 8rem;
+}
+
+.hashtag-search-field {
+  position: absolute;
+  top:48px;
+  top: 3rem;
+  left: 0;
+  right: 0;
+  height:80px;
+  height: 5rem;
+  border-bottom: 1px solid #EDEDED;
+  z-index: 300;
 }
 
 .display-none { display: none !important; }

@@ -38,6 +38,11 @@ textarea.transparent-input {
   padding: var(--input-field-padding-y) var(--input-field-padding-x) 0;
 }
 
+.transparent-input--large {
+  font-size: 1.3125rem;
+  line-height: 2.5rem;
+}
+
 .pre-wrap {
   white-space: pre-wrap;
 }

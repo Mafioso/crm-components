@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset='utf-8' />
+  <title>Ship&amp;Deploy Boilerplate</title>
+  <link rel='stylesheet' href='assets/app.css'>
+</head>
+<body>
+  <div class='display-none'>
+  </div>
+  <div class='body-container hashtag-search'>
+    <div class='body-header nav'></div>
+    <div class='hashtag-search-field flex bg-white'>
+
+      <div class='flex-auto ml2'>
+        <label class='transparent-label gray regular'>
+          Поиск по хэштегам
+        </label>
+        <div class='relative show-sd-dropdown'>
+          <input class='transparent-input transparent-input--large' type='text' placeholder='Введите хэштег' />
+          <div class='sd-dropdown bg-white rounded shadow-1 z4'>
+            <a href='#' class='block p1 border-bottom bg-darken-1'>
+              Tag1
+            </a>
+            <a href='#' class='block p1 border-bottom'>
+              Tag2
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class='flex-none flex'>
+        <button class='px3 bg-blue white'>
+          Найти
+        </button>
+      </div>
+
+    </div>
+    <div class='body-master'>
+      <div class='page'>
+        <div class='page-header'>
+        </div>
+        <div class='page-body'>
+          <a href='#' class='border-bottom flex p1'>
+            <div class='flex-auto truncate'>
+              Контакты
+            </div>
+            <div class='flex-none gray'>
+              0
+            </div>
+          </a>
+          <a href='#' class='border-bottom flex p1'>
+            <div class='flex-auto truncate'>
+              Проекты
+            </div>
+            <div class='flex-none gray'>
+              0
+            </div>
+          </a>
+          <a href='#' class='border-bottom flex p1'>
+            <div class='flex-auto truncate'>
+              События
+            </div>
+            <div class='flex-none gray'>
+              0
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class='body-detail'>
+      <div class='page'>
+        <div class='page-header'>
+        </div>
+
+        <!-- Empty state (no tags/hashtags in system) -->
+        <div class='page-body flex flex-center display-none'>
+          <div class='text-center flex-auto gray text-large'>
+            Чтобы воспользоваться поиском, добавьте хэштег к событию или тэг к проекту или контакту
+          </div>
+        </div>
+
+        <!-- Empty state (start search) -->
+        <div class='page-body flex flex-center display-none'>
+          <div class='text-center flex-auto gray text-large'>
+            Введите тэг для поиска
+          </div>
+        </div>
+
+        <div class='page-body'>
+          search items here
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <script>
+    var WebFontConfig = ({
+      google: { families: [ 'Open+Sans:400,700:latin,cyrillic' ] }
+    });
+    (function() {
+      'use strict';
+      var wf = document.createElement('script');
+      wf.src = ('https:' === document.location.protocol ? 'https' : 'http') +
+                '://ajax.googleapis.com/ajax/libs/webfont/1.5.6/webfont.js';
+      wf.type = 'text/javascript';
+      wf.async = 'true';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(wf, s);
+    })();
+  </script>
+  <script src='./assets/app.js'></script>
+</body>
+</html>
