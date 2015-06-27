@@ -24,6 +24,10 @@ body {
   background-color: hsla(0,0%,98%,1);
 }
 
+.nav {
+  z-index: 400;
+}
+
 @import 'basscss-utility-layout';
 @import 'basscss-utility-typography';
 @import 'basscss-positions';

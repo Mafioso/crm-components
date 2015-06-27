@@ -342,7 +342,7 @@ textarea.transparent-input {
   height:80px;
   height: 5rem;
   border-bottom: 1px solid #EDEDED;
-  z-index: 300;
+  z-index: 200;
 }
 
 .display-none { display: none !important; }
@@ -350,6 +350,10 @@ textarea.transparent-input {
 body {
   font-family: "Open Sans",Arial,Helvetica,sans-serif;
   background-color: hsla(0,0%,98%,1);
+}
+
+.nav {
+  z-index: 400;
 }
 
 /* Basscss Utility Layout */
