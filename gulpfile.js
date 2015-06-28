@@ -8,7 +8,7 @@ var runSequence = require('run-sequence');
 var del = require('del');
 var source = require('vinyl-source-stream');
 var browserify = require('browserify');
-var babelify = require('babelify');
+// var babelify = require('babelify');
 var _ = require('lodash');
 var mergeStream = require('merge-stream');
 
@@ -26,7 +26,8 @@ gulp.task('dev:csscompile', function() {
       console.log('dev:styles error:\n', error.message);
     }}))
     .pipe($.cssnext({
-      browserlist: 'last 3 versions'
+      browserlist: 'last 3 versions',
+      compress: true
     }))
     .pipe(gulp.dest('./dist/assets/'))
     .pipe($.size({title: 'dev:csscompile'}));
