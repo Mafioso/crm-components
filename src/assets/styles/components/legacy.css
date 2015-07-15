@@ -294,9 +294,9 @@ button::-moz-focus-inner {
     vertical-align: top;
     margin-top: .25rem;
 }
-.icon--remove {
+/*.icon--remove {
     color: #D0021B;
-}
+}*/
 .icon--waiting {
     color: #999;
 }

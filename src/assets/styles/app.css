@@ -34,6 +34,10 @@ body {
 @import 'flex-object';
 @import 'basscss-white-space';
 
+.mr05 {
+  margin-right: .25rem;
+}
+
 :root {
   --space-1: .5rem;
   --space-2: 1rem;
