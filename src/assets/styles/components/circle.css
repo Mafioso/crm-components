@@ -1,0 +1,6 @@
+.circle {
+  display: inline-block;
+  width: .5625rem;
+  height: .5625rem;
+  border-radius: 9999em;
+}
