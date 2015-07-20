@@ -8,6 +8,9 @@
 <body>
   <div class='display-none'>
     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <symbol id='icon-alert' viewbox='0 0 24 24'>
+        <path class='svg-currentColor' d='M12 4L4 20h16L12 4zm-1 6h2l-.5 6h-1l-.5-6zm.5 7h1v1h-1v-1z' />
+      </symbol>
       <symbol id='icon-remove' viewbox='0 0 24 24'>
         <path class='svg-currentColor' d='M3 5h18v2H3V5zm6-2h6l1 2H8l1-2zM5 8h14l-.5 13h-13L5 8zm1 0h12l-.5 11h-11L6 8zm3 0h1v11H9V8zm5 0h1v11h-1V8z' fill-rule='evenodd' />
       </symbol>
@@ -163,7 +166,26 @@
             </div>
             <div class='page-body'>
 
-              <h1 class='mb2'>Sample event</h1>
+              <div class="cycle" data-reactid=".1.1.1.1.0.1.0.0"><div class="cycle-title" data-reactid=".1.1.1.1.0.1.0.0.0"><a href="#/contact/21044/detail/sales_cycle/22647" class="" data-reactid=".1.1.1.1.0.1.0.0.0.0"><span class='icon icon--alert mr05 red'>
+                <svg>
+                  <use xlink:href='#icon-alert'></use>
+                </svg>
+              </span>Новый цикл</a><span data-reactid=".1.1.1.1.0.1.0.0.0.1"> </span><a class="cycle-title-contact" href="#/contact/21044/detail" data-reactid=".1.1.1.1.0.1.0.0.0.2">Тест Васильевич</a></div><div class="cycle-meta" data-reactid=".1.1.1.1.0.1.0.0.1"><span class="activity-type activity-type--open" data-reactid=".1.1.1.1.0.1.0.0.1.0">Открытый цикл</span><span data-reactid=".1.1.1.1.0.1.0.0.1.1"> </span><span class="activity-type" style="background-color:#CCB2FF;" data-reactid=".1.1.1.1.0.1.0.0.1.2">Подготовка к туру</span></div><div class="cycle-body" data-reactid=".1.1.1.1.0.1.0.0.2"><div class="cycle-activity-title" data-reactid=".1.1.1.1.0.1.0.0.2.0"><span data-reactid=".1.1.1.1.0.1.0.0.2.0.0">1</span><span data-reactid=".1.1.1.1.0.1.0.0.2.0.1"> взаимодействий, </span><span data-reactid=".1.1.1.1.0.1.0.0.2.0.2">0</span><span data-reactid=".1.1.1.1.0.1.0.0.2.0.3"> запланировано. </span><br data-reactid=".1.1.1.1.0.1.0.0.2.0.4"><strong data-reactid=".1.1.1.1.0.1.0.0.2.0.5">Последняя активность:</strong></div><div class="cycle-activity" data-reactid=".1.1.1.1.0.1.0.0.2.1"><a class="cycle-activity-icon" href="#/user/5" data-reactid=".1.1.1.1.0.1.0.0.2.1.0"><div class="icon-userpic" data-reactid=".1.1.1.1.0.1.0.0.2.1.0.0"><img src="http://almasales.kz/media/userpics/api_doc_9.png" data-reactid=".1.1.1.1.0.1.0.0.2.1.0.0.0"></div></a><div class="cycle-activity-body" data-reactid=".1.1.1.1.0.1.0.0.2.1.1"><a href="#/user/5" class="" data-reactid=".1.1.1.1.0.1.0.0.2.1.1.0">Vadim Kotov</a><span data-reactid=".1.1.1.1.0.1.0.0.2.1.1.1"> в </span><span data-reactid=".1.1.1.1.0.1.0.0.2.1.1.2">10:03, 20 июля 15</span><div class="cycle-activity-text" data-reactid=".1.1.1.1.0.1.0.0.2.1.1.3">Что-то там такое случилось, я аж не знаю</div></div></div></div></div>
+
+              <hr />
+
+              <div class='rounded border mb3 bg-white'>
+                <div class='p1'>
+                  <span class='icon icon--alert mr05 red'>
+                    <svg>
+                      <use xlink:href='#icon-alert'></use>
+                    </svg>
+                  </span> Название этапа <span class='activity-type' style='background-color:#CCB2FF;'>Подготовка к туру</span> было изменено.
+                </div>
+                <div class='p1 border-top'>
+                  <button>Изменить этап текущего цикла</button>
+                </div>
+              </div>
 
               <div class='rounded border event mb3'>
                 <div class='flex text-secondary'>
@@ -336,8 +358,52 @@ Sed sapien metus, scelerisque nec pharetra <a href='#' class='link-tag'>#id</a>,
                     </li>
                   </ul>
                   <button class='block'>
-                    Показать комментарии (8)
+                    Скрыть комментарии
                   </button>
+                </div>
+
+                <div class='border-top px1 py2 text-caption comments'>
+
+                  <div class='flex mb1'>
+                    <div class='flex-none'>
+                      <a href="#" class="block">
+                        <span class="icon-userpic m0 mr05">
+                          <img src="http://almasales.kz/media/userpics/boiger_1.png">
+                        </span>
+                      </a>
+                    </div>
+                    <div class='flex-auto'>
+                      <a href='#' class='bold inline-block mr05'>Jack Harrison</a> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate quo doloremque aliquam, maiores hic iste praesentium tempora nesciunt! Deserunt quod, ex exercitationem eaque debitis nesciunt perferendis iure reiciendis veritatis pariatur!
+                    </div>
+                  </div>
+
+                  <div class='flex mb1'>
+                    <div class='flex-none'>
+                      <a href="#" class="block">
+                        <span class="icon-userpic m0 mr05">
+                          <img src="http://almasales.kz/media/userpics/boiger_1.png">
+                        </span>
+                      </a>
+                    </div>
+                    <div class='flex-auto'>
+                      <a href='#' class='bold inline-block mr05'>Jack Harrison</a> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate quo doloremque aliquam, maiores hic iste praesentium tempora nesciunt! Deserunt quod, ex exercitationem eaque debitis nesciunt perferendis iure reiciendis veritatis pariatur!
+                    </div>
+                  </div>
+
+                  <div class='flex'>
+                    <div class='flex-none'>
+                      <a href="#" class="block">
+                        <span class="icon-userpic m0 mr05">
+                          <img src="http://almasales.kz/media/userpics/boiger_1.png">
+                        </span>
+                      </a>
+                    </div>
+                    <div class='flex-auto relative'>
+                      <div class='transparent-input-shadow p0'></div>
+                      <textarea id='event-description' class='transparent-input absolute top-0 left-0 right-0 bottom-0 z1 p0' placeholder='Комментарий...'></textarea>
+                    </div>
+                  </div>
+
                 </div>
 
               </div>
@@ -623,6 +689,110 @@ Sed sapien metus, scelerisque nec pharetra <a href='#' class='link-tag'>#id</a>,
                     </div>
                   </div>
                   <button class='w-50 border-left px2 py1 bg-green white'>
+                    Сохранить
+                  </button>
+                </div>
+
+                <div class='stream-item-footer bg-white p2'>
+                  <ul class="stream-breadcrumbs" style='padding: 0;'>
+                    <li>
+                      <a class="stream-breadcrumbs-link " href="#/contact/845/detail">Эльмира</a>
+                    </li><li>
+                      <a class="stream-breadcrumbs-link " href="#/contact/845/detail/sales_cycle/582" >
+                        Основной поток
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+
+              <div class='rounded border event mb3'>
+                <div class='flex border-bottom'>
+                  <div class='flex-auto'>
+                    <button class='px1 py1 full-width left-align regular rounded-top-left'>
+                      <span class='gray'>
+                        <span class='icon icon--people'>
+                          <svg>
+                            <use xlink:href='#icon-people'></use>
+                          </svg>
+                        </span>:
+                      </span>
+                      <span class='icon-userpic m0 mr05'>
+                        <img src='http://almasales.kz/media/userpics/boiger_1.png'>
+                      </span>
+                      Jack Harrison
+                    </button>
+                  </div>
+                  <div class='flex-none'>
+                    <button class='p1 gray'>
+                      <span class='icon icon--remove'>
+                        <svg>
+                          <use xlink:href='#icon-remove'></use>
+                        </svg>
+                      </span>
+                    </button><button class='px2 py1 regular border-left'>
+                      Отмена
+                    </button>
+                  </div>
+                </div>
+
+                <div class='border-bottom relative'>
+                  <label class='transparent-label gray' for='event-description'>Описание</label>
+                  <div class='relative'>
+                    <div class='transparent-input-shadow'>Написать КП и вернуться asdf
+<a href='#' class='link-tag'>#adfasdf</a>
+через пару дней
+</div>
+                    <textarea id='event-description' class='transparent-input absolute top-0 left-0 right-0 bottom-0 z1'>Написать КП и вернуться asdf
+#adfasdf
+через пару дней</textarea>
+                  </div>
+
+                  <div class='sd-dropdown z4 rounded bg-white shadow-1 overflow-hidden'>
+                    <button class='bg-white full-width p1 left-align'>
+                      Jennifer Jones
+                    </button>
+                    <button class='bg-white full-width p1 left-align'>
+                      Cameron Cooper
+                    </button>
+                  </div>
+
+                </div>
+
+                <div class='border-bottom relative'>
+                  <ul class='list-reset py1'>
+                    <li>
+                      <a href='#' class='bold px1'>
+                        <span class='gray'>
+                          <span class='icon icon--file'>
+                            <svg>
+                              <use xlink:href='#icon-file'></use>
+                            </svg>
+                          </span>
+                        </span>
+                        Filename.ext
+                      </a>
+                    </li>
+                  </ul>
+
+                  <div class='relative input-file-container border-top'>
+                    <input class='input-file' type='file' />
+                    <div class='p1'>
+                      <span class='gray'>
+                        <span class='icon icon--file'>
+                          <svg>
+                            <use xlink:href='#icon-file'></use>
+                          </svg>
+                        </span>
+                      </span>
+                      Прикрепить файл
+                    </div>
+                  </div>
+                </div>
+
+                <div class='border-top'>
+                  <button class='full-width border-left px2 py1 bg-green white'>
                     Сохранить
                   </button>
                 </div>

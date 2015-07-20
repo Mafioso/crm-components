@@ -1,0 +1,10 @@
+.muted, button[disabled] {
+  opacity: .3;
+}
+.muted:hover, button[disabled]:hover {
+  opacity: .3 !important;
+}
+
+button[disabled], .button.muted {
+  cursor: default;
+}

@@ -1,29 +1,36 @@
-@import './components/legacy.css';
+@import 'components/legacy';
 
-@import 'components/event.css';
-@import 'components/width.css';
-@import 'components/button.css';
-@import 'components/corners.css';
-@import 'components/border.css';
-@import 'components/link.css';
-@import 'components/colors.css';
-@import 'components/dropdown.css';
-@import 'components/shadow.css';
-@import 'components/calendar.css';
-@import 'components/input.css';
-@import 'components/icon.css';
-@import 'components/page.css';
-@import 'components/svg.css';
-@import 'components/list.css';
-@import 'components/hashtag-search.css';
-@import 'components/admin.css';
-@import 'components/circle.css';
+@import 'components/event';
+@import 'components/width';
+@import 'components/button';
+@import 'components/corners';
+@import 'components/border';
+@import 'components/link';
+@import 'components/colors';
+@import 'components/dropdown';
+@import 'components/shadow';
+@import 'components/calendar';
+@import 'components/input';
+@import 'components/icon';
+@import 'components/page';
+@import 'components/svg';
+@import 'components/list';
+@import 'components/hashtag-search';
+@import 'components/admin';
+@import 'components/circle';
+@import 'components/comments';
 
 .display-none { display: none !important; }
 
 body {
   font-family: "Open Sans",Arial,Helvetica,sans-serif;
   background-color: hsla(0,0%,98%,1);
+}
+
+.body-scroll {
+  height: auto;
+  overflow: auto;
+  -webkit-overflow-scrolling: auto;
 }
 
 .nav {
@@ -35,6 +42,8 @@ body {
 @import 'basscss-positions';
 @import 'flex-object';
 @import 'basscss-white-space';
+
+@import 'components/muted';
 
 .mr05 {
   margin-right: .25rem;
