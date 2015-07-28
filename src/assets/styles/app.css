@@ -19,6 +19,7 @@
 @import 'components/admin';
 @import 'components/circle';
 @import 'components/comments';
+@import 'components/text';
 
 .display-none { display: none !important; }
 
