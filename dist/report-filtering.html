@@ -185,7 +185,7 @@
                   </div>
                 </div>
                 <div class='bg-white border rounded'>
-                  <div class='mb1'>
+                  <div class='mb1 display-none'>
                     <div class='bold px1 mt1'>Списки контактов и сохраненные фильтры:</div>
                     <div class='flex border-bottom p1'>
                       <div class='flex-auto truncate mr1'>
@@ -211,7 +211,30 @@
                     </div>
                   </div>
                   <div>
-                    <div class='bold px1 mt1'>Продукты:</div>
+                    <div class='bold p1'>Продукты:</div>
+
+                    <div class='flex border-bottom border-top'>
+                      <div class='flex-auto'>
+                        <label class='transparent-label gray regular' >Поиск</label>
+                        <div class='relative'>
+                          <input class='transparent-input' value='' type='text' placeholder='E.g. Username' autocomplete='off' >
+                          <div class='sd-dropdown bg-white rounded shadow-1 z4' >
+                            <a href='#' class='block p1 border-bottom bg-darken-1' >Tag1</a>
+                            <a href='#' class='block p1 border-bottom' >Tag2</a>
+                          </div>
+                        </div>
+                      </div>
+                      <button class='regular flex-none px2 gray'>
+                        <figure class="icon icon--search" data-reactid=".1.1.1.1.0.0.1.$=10:0.$=10:0.$=10:0.$=10:0"><svg version="1.1" data-reactid=".1.1.1.1.0.0.1.$=10:0.$=10:0.$=10:0.$=10:0.0"><use xlink:href="#search"></use></svg></figure>
+                      </button>
+                      <button class='regular flex-none px2 bg-darken-1 border-right'>
+                        Добавить все
+                      </button>
+                      <button class='regular flex-none px2 bg-darken-2'>
+                        Удалить все
+                      </button>
+                    </div>
+
                     <div class='flex border-bottom p1'>
                       <div class='flex-auto truncate mr1'>
                         Название продукта
